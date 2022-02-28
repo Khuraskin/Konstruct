@@ -1,0 +1,46 @@
+.header {
+    & {
+        background: url("../img/header/bg.jpg") center top no-repeat;
+        background-size: cover;
+        margin-bottom: 1.5rem;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 2.6rem;
+        margin-bottom: 21.6rem;
+        cursor: pointer;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 3.75rem;
+        line-height: 4.4rem;
+        text-transform: uppercase;        
+        color: #fff;
+    }
+
+    &__subtitle {
+        font-size: 1rem;
+        line-height: 1.17rem;
+        color: #fff;
+        margin-bottom: 16.3rem;
+    }
+
+    &__scroll {
+        font-size: 0.68rem;
+        line-height: 0.8rem;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 4.4rem;
+        cursor: pointer;
+    }
+
+}
+
+   

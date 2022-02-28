@@ -1,0 +1,90 @@
+.story {
+
+    &  {
+        background: #F2F2F2;
+        padding-top: 3.56rem;
+    }
+
+    &__title {
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+        font-weight: bold;
+        color: #48555B;
+        text-transform: uppercase; 
+        text-align: center;
+        margin-bottom: 0.62rem;
+    }
+
+    &__line {   
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4.37rem;
+    }
+
+    &__main {
+        display: flex;
+    }
+
+    &__text {
+        font-size: 1.25rem;
+        line-height: 1.43rem;
+        font-weight: bold;
+        color: #48555B;
+    }
+    &__text--color {
+        font-size: 1.25rem;
+        line-height: 1.46rem;
+        font-weight: bold;
+        color: #00A4E5;
+    }
+
+    &__number {
+        font-size: 1.25rem;
+        line-height: 1.43rem;
+        font-weight: bold;
+        color: #48555B;
+    }
+
+    &__end {
+        font-size: 13px;
+        line-height: 1.43rem;
+        color: #48555B;
+    }
+
+    &__subtitle {
+        max-width: 25.3rem;
+        margin-right: auto;
+    }
+
+    &__foto {
+        display: flex;
+    }
+
+    &__pic {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+        color: #fff;
+        margin-right: 0.93rem;
+        text-transform: uppercase;
+        padding: 0.93rem 0 0 0.87rem; 
+    }
+    
+    &__pic:last-child {
+        margin-right: 0;
+    }
+
+    &__pic--one {
+        background: url("../img/story/Bitmap_1.png") no-repeat;
+        width: 8.75rem;  
+    }
+
+    &__pic--two {
+        background: url("../img/story/Bitmap_2.png")  no-repeat;
+        width: 8.75rem;  
+    }
+
+    &__pic--fhree {
+        background: url("../img/story/Bitmap_3.png") no-repeat;
+        width: 8.75rem;       
+    }
+}

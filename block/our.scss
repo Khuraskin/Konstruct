@@ -1,0 +1,40 @@
+.our {
+
+    & {        
+    background: #F2F2F2;
+    padding-top: 7.4rem;
+    }    
+
+  &__main {
+    display: flex;
+  }
+
+  &__text {
+    font-size: 1.12rem;
+    line-height: 1.3rem;
+    color: #48555b;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &__title {
+      margin-right: auto;
+  }
+
+  &__subtitle {
+      max-width: 25.3rem;
+  }
+
+  &__list {
+    font-size: 0.68rem;
+    line-height: 1.18rem;
+    color: #48555b;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+}

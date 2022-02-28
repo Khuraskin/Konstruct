@@ -1,0 +1,51 @@
+.project {
+
+    & {
+        background: #F2F2F2;
+        padding-top: 4.87rem;
+    }
+
+    &__main{
+        display: flex;
+        padding-bottom: 7.2rem;
+    }
+
+    &__item{
+        width: 18.4rem;
+        background: #FFFFFF;
+        border: 1px solid #E6E6E6;
+        margin-right: auto;
+    }
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+
+    &__wrap {
+        padding-left: 1.4rem;
+        max-width: 15.6rem;
+    }
+
+    &__pic {
+        padding: 2.37rem 0 1.56rem 0;
+    }
+
+    &__text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #48555B;
+    }
+
+    &__subtitle {
+        padding: 0.8rem 0 2.4rem 0;
+    }
+    
+    &__list {
+        font-size: 0.8rem;
+        line-height: 1.4rem;        
+        color: #48555B;
+    }
+
+}

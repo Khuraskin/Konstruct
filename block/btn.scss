@@ -1,0 +1,33 @@
+.btn {
+
+    & {
+    background: #00A4E5;
+    width: 9.37rem;
+    height: 2.5rem;
+    cursor: pointer;
+    }
+
+    &__our {
+        font-size: 0.8rem;
+        line-height: 0.95rem;
+        color: #fff;
+        text-transform: uppercase;        
+    }
+
+    &__build {
+        font-size: 0.8rem;
+        line-height: 0.95rem;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    &__news {
+        font-size: 0.8rem;
+        line-height: 0.95rem;
+        color: #fff;
+        text-transform: uppercase;
+
+    }
+
+
+}

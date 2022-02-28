@@ -1,0 +1,38 @@
+.news {
+  & {
+    background: #171819;
+  }
+
+  &__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.18rem 0 2.18rem 0;
+  }
+
+  &__title {
+    margin-right: 4.37rem;
+  }
+
+  &__text {
+    font-size: 1.37rem;
+    font-weight: bold;
+    line-height: 1.6rem;
+    color: #fff;
+  }
+
+  &__form {
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #48555b;
+    padding: 0.7rem 6.1rem 0.7rem 1rem;
+    outline: none;
+    background: #fff;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

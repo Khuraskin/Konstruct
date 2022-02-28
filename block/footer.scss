@@ -1,0 +1,105 @@
+.footer {
+  & {
+    background: #141a20;
+    padding-top: 2.6rem;
+  }
+
+  &__main {
+    display: flex;
+    padding-bottom: 3.1rem;
+  }
+
+  &__company {
+    max-width: 15.6rem;
+    margin-right: 4.4rem;
+  }
+
+  &__title {
+    font-size: 0.68rem;
+    line-height: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 1.2rem;
+  }
+
+  &__logo {
+    padding-bottom: 1rem;
+  }
+
+  &__text {
+    font-size: 0.68rem;
+    line-height: 1.18rem;
+    color: #fff;
+  }
+
+  &__about {
+    max-width: 4.75rem;
+    margin-right: 2.1rem;
+  }
+
+  &__name {
+    font-size: 0.68rem;
+    line-height: 1.18rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 0.6rem;
+  }
+
+  &__link {
+    font-size: 0.68rem;
+    line-height: 1.18rem;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &__faq {
+    max-width: 3.25rem;
+    margin-right: 2.9rem;
+    padding-top: 1.8rem;
+  }
+
+  &__blog {
+    max-width: 3.8rem;
+    margin-right: 4.4rem;
+    padding-top: 1.8rem;
+  }
+
+  &__contact {
+    max-width: 8.8rem;
+    margin-right: 2.9rem;
+  }
+
+  &__us {
+    font-size: 0.68rem;
+    line-height: 0.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+  }
+
+  &__address {
+    font-size: 0.68rem;
+    line-height: 1rem;
+    color: #fff;
+  }
+
+  &__phone {
+    font-size: 0.68rem;
+    line-height: 1rem;
+    color: #fff;
+  }
+
+  &__email {
+    font-size: 0.68rem;
+    line-height: 1rem;
+    color: #fff;
+  }
+
+  &__media {
+    display: flex;
+  }
+
+  &__picture {
+    max-width: 0.75rem;
+  }
+}

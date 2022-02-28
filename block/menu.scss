@@ -1,0 +1,36 @@
+.menu {
+  & {
+    background: #ffffff;
+    border-bottom: 0.06rem solid #e6e6e6;
+    box-sizing: border-box;    
+  }
+  
+  &__main {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__list {
+    margin-right: 3rem;
+  }
+
+  &__list:last-child {
+    margin-right: 0;
+  }
+
+  &__link {
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 0.87rem;
+    text-transform: uppercase; 
+    color: #48555b;
+  }
+}

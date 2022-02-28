@@ -1,0 +1,15 @@
+.made {
+  & {
+    background: #171819;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.75rem;
+  }
+
+  &__title {
+    font-size: 0.68rem;
+    line-height: 0.8rem;
+    color: #fff;
+  }
+}
