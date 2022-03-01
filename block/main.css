@@ -230,12 +230,22 @@ a {
   display: flex;
 }
 .story__pic {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  color: #fff;
   margin-right: 0.93rem;
   text-transform: uppercase;
   padding: 0.93rem 0 0 0.87rem;
+  position: relative;
+}
+.story__name {
+  font-size: 1rem;
+  color: #fff;
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+}
+@media screen and (max-width: 480px) {
+  .story__name {
+    font-size: calc(0.3rem + 1vh);
+  }
 }
 .story__pic:last-child {
   margin-right: 0;
