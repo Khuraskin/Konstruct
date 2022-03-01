@@ -651,6 +651,11 @@ a {
   line-height: 1rem;
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  .footer__social {
+    margin-right: 5.18rem;
+  }
+}
 .footer__media {
   display: -webkit-box;
   display: -ms-flexbox;
