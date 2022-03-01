@@ -130,6 +130,11 @@ a {
 .menu__list {
   margin-right: 3rem;
 }
+@media screen and (max-width: 768px) {
+  .menu__list {
+    margin-right: 0.5rem;
+  }
+}
 .menu__list:last-child {
   margin-right: 0;
 }
@@ -139,6 +144,11 @@ a {
   line-height: 0.87rem;
   text-transform: uppercase;
   color: #48555b;
+}
+@media screen and (max-width: 768px) {
+  .menu__link {
+    font-size: 0.6rem;
+  }
 }
 
 .line {
