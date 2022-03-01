@@ -17,7 +17,8 @@ button {
   margin: 0;
 }
 
-ul li {
+ul,
+li {
   list-style: none;
 }
 
@@ -54,6 +55,7 @@ a {
   background: url("../img/header/bg.jpg") center top no-repeat;
   background-size: cover;
   margin-bottom: 1.5rem;
+  min-width: 87.5rem;
 }
 .header__logo {
   display: -webkit-box;
@@ -96,6 +98,7 @@ a {
   border-bottom: 0.06rem solid #e6e6e6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  min-width: 87.5rem;
 }
 .menu__main {
   display: -webkit-box;
@@ -132,14 +135,15 @@ a {
 }
 
 .story {
-  background: #F2F2F2;
+  background: #f2f2f2;
   padding-top: 3.56rem;
+  min-width: 87.5rem;
 }
 .story__title {
   font-size: 1.1rem;
   line-height: 1.3rem;
   font-weight: bold;
-  color: #48555B;
+  color: #48555b;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 0.62rem;
@@ -158,24 +162,24 @@ a {
   font-size: 1.25rem;
   line-height: 1.43rem;
   font-weight: bold;
-  color: #48555B;
+  color: #48555b;
 }
 .story__text--color {
   font-size: 1.25rem;
   line-height: 1.46rem;
   font-weight: bold;
-  color: #00A4E5;
+  color: #00a4e5;
 }
 .story__number {
   font-size: 1.25rem;
   line-height: 1.43rem;
   font-weight: bold;
-  color: #48555B;
+  color: #48555b;
 }
 .story__end {
   font-size: 13px;
   line-height: 1.43rem;
-  color: #48555B;
+  color: #48555b;
 }
 .story__subtitle {
   max-width: 25.3rem;
@@ -211,8 +215,9 @@ a {
 }
 
 .our {
-  background: #F2F2F2;
+  background: #f2f2f2;
   padding-top: 7.4rem;
+  min-width: 87.5rem;
 }
 .our__main {
   display: -webkit-box;
@@ -251,7 +256,7 @@ a {
 }
 
 .btn {
-  background: #00A4E5;
+  background: #00a4e5;
   width: 9.37rem;
   height: 2.5rem;
   cursor: pointer;
@@ -276,8 +281,9 @@ a {
 }
 
 .project {
-  background: #F2F2F2;
+  background: #f2f2f2;
   padding-top: 4.87rem;
+  min-width: 87.5rem;
 }
 .project__main {
   display: -webkit-box;
@@ -287,8 +293,8 @@ a {
 }
 .project__item {
   width: 18.4rem;
-  background: #FFFFFF;
-  border: 1px solid #E6E6E6;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
   margin-right: auto;
 }
 .project__item:last-child {
@@ -306,7 +312,7 @@ a {
   line-height: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: #48555B;
+  color: #48555b;
 }
 .project__subtitle {
   padding: 0.8rem 0 2.4rem 0;
@@ -314,7 +320,7 @@ a {
 .project__list {
   font-size: 0.8rem;
   line-height: 1.4rem;
-  color: #48555B;
+  color: #48555b;
 }
 
 .build {
@@ -330,6 +336,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  min-width: 87.5rem;
 }
 .build__title {
   display: -webkit-box;
@@ -366,6 +373,7 @@ a {
 
 .news {
   background: #171819;
+  min-width: 87.5rem;
 }
 .news__main {
   display: -webkit-box;
@@ -411,6 +419,7 @@ a {
 .footer {
   background: #141a20;
   padding-top: 2.6rem;
+  min-width: 87.5rem;
 }
 .footer__main {
   display: -webkit-box;
@@ -511,6 +520,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 3.75rem;
+  min-width: 87.5rem;
 }
 .made__title {
   font-size: 0.68rem;
