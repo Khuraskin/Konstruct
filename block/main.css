@@ -353,6 +353,18 @@ a {
   display: flex;
   padding-bottom: 7.2rem;
 }
+@media screen and (max-width: 768px) {
+  .project__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 .project__item {
   width: 18.4rem;
   background: #ffffff;
@@ -361,6 +373,11 @@ a {
 }
 .project__item:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .project__item {
+    margin-right: 0;
+  }
 }
 .project__wrap {
   padding-left: 1.4rem;
