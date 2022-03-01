@@ -514,6 +514,12 @@ a {
   outline: none;
   background: #fff;
 }
+@media screen and (max-width: 768px) {
+  .news__form {
+    text-align: center;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+  }
+}
 .news__btn {
   display: -webkit-box;
   display: -ms-flexbox;
