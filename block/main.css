@@ -1,11 +1,18 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: "OpenSans", sans-serif;
+}
+
+wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
 }
 
 button {
@@ -17,7 +24,15 @@ button {
   margin: 0;
 }
 
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 ul,
+ol,
 li {
   list-style: none;
 }
@@ -55,7 +70,6 @@ a {
   background: url("../img/header/bg.jpg") center top no-repeat;
   background-size: cover;
   margin-bottom: 1.5rem;
-  min-width: 87.5rem;
 }
 .header__logo {
   display: -webkit-box;
@@ -98,7 +112,6 @@ a {
   border-bottom: 0.06rem solid #e6e6e6;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  min-width: 87.5rem;
 }
 .menu__main {
   display: -webkit-box;
@@ -137,7 +150,6 @@ a {
 .story {
   background: #f2f2f2;
   padding-top: 3.56rem;
-  min-width: 87.5rem;
 }
 .story__title {
   font-size: 1.1rem;
@@ -217,7 +229,6 @@ a {
 .our {
   background: #f2f2f2;
   padding-top: 7.4rem;
-  min-width: 87.5rem;
 }
 .our__main {
   display: -webkit-box;
@@ -283,7 +294,6 @@ a {
 .project {
   background: #f2f2f2;
   padding-top: 4.87rem;
-  min-width: 87.5rem;
 }
 .project__main {
   display: -webkit-box;
@@ -336,7 +346,6 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  min-width: 87.5rem;
 }
 .build__title {
   display: -webkit-box;
@@ -373,7 +382,6 @@ a {
 
 .news {
   background: #171819;
-  min-width: 87.5rem;
 }
 .news__main {
   display: -webkit-box;
@@ -419,7 +427,6 @@ a {
 .footer {
   background: #141a20;
   padding-top: 2.6rem;
-  min-width: 87.5rem;
 }
 .footer__main {
   display: -webkit-box;
@@ -520,7 +527,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 3.75rem;
-  min-width: 87.5rem;
 }
 .made__title {
   font-size: 0.68rem;
