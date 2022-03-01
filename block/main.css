@@ -542,9 +542,26 @@ a {
   display: flex;
   padding-bottom: 3.1rem;
 }
+@media screen and (max-width: 768px) {
+  .footer__main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 .footer__company {
   max-width: 15.6rem;
   margin-right: 4.4rem;
+}
+@media screen and (max-width: 768px) {
+  .footer__company {
+    margin: 0;
+  }
 }
 .footer__title {
   font-size: 0.68rem;
@@ -565,6 +582,11 @@ a {
   max-width: 4.75rem;
   margin-right: 2.1rem;
 }
+@media screen and (max-width: 768px) {
+  .footer__about {
+    margin: 0;
+  }
+}
 .footer__name {
   font-size: 0.68rem;
   line-height: 1.18rem;
@@ -583,14 +605,29 @@ a {
   margin-right: 2.9rem;
   padding-top: 1.8rem;
 }
+@media screen and (max-width: 768px) {
+  .footer__faq {
+    margin: 0;
+  }
+}
 .footer__blog {
   max-width: 3.8rem;
   margin-right: 4.4rem;
   padding-top: 1.8rem;
 }
+@media screen and (max-width: 768px) {
+  .footer__blog {
+    margin: 0;
+  }
+}
 .footer__contact {
   max-width: 8.8rem;
   margin-right: 2.9rem;
+}
+@media screen and (max-width: 768px) {
+  .footer__contact {
+    margin: 0;
+  }
 }
 .footer__us {
   font-size: 0.68rem;
